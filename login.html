@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8"/>
+
+<style>
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  margin: auto;
+  padding: 0 20px 15px;
+  background-color: gray;
+}
+
+#logo{
+  margin-top: 20px;
+}
+#logobox{
+  text-align: center;
+}
+
+contents{
+  background-color:lightgrey;
+  padding: 60px 0 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+contents div{
+  padding: 5px;
+  text-align: center;
+}
+
+#id, #password, signin{
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+}
+
+#login{
+  width: 100px;
+  height: 30px;
+}
+
+#loginBox{
+  padding: 60px 0 10px;
+}
+
+#goback{
+  width: 60px;
+  height: 25px;
+}
+
+#gobackBox{
+  padding: 2px;
+}
+
+footer{
+  background-color: dimgray;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer li{
+  display: inline;
+}
+
+#copyright {
+  font-size: 0.7em;
+}
+
+a:link { color: black; text-decoration: none;}
+a:visited {color: black; text-decoration: none;}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <div id="logobox"><a href="index.html"><img src="img/logo.png" id="logo"></a></div>
+</header>
+
+<contents>
+  <div><input id="id" type="text" placeholder="아이디"> </input></div>
+  <div><input id="password" type="password" placeholder="비밀번호"></div>
+  <div id="loginBox"><input id="login" type="submit" value="로그인"></div>
+  <div id="signin"><a href="signin.html"><input id="signin" type="submit" value="회원가입"></a></div>
+  <div id="gobackBox"><a href="index.html"><input id="goback" type="button" value="홈으로"></a></div>
+</contents>
+
+<footer>
+  <ul>
+    <li><a href="TermsOfUse.html">이용약관</a></li>
+    <li>|</li>
+    <li><a href="#">개인정보 처리방침</a></li>
+    <li>|</li>
+    <li><a href="#">책임의 한계와 법적고지</a></li>
+  </ul>
+
+  <span id="copyright">본 컨텐츠의 저작권은 저작권자 또는 제공처에 있으며, 이를 무단으로 사용하는 경우 저작권법 등에
+    따라 법적 책임을 질 수 있습니다.</span><br>
+  all right reserved<br>
+  <img src="img/blacklogo.png">
+</footer>
+
+</body>
+
+</html>

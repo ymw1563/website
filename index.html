@@ -1,0 +1,198 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="basic.css" type="text/css" rel="stylesheet">
+    <style>
+      header #button1{
+      background-color: #ED0000;
+      }
+      header #button2{
+      background-color: darkgray;
+      }
+      header #button3{
+      background-color: darkgray;
+      }
+          #box1{
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            padding-top: 20px;
+          }
+          h1 {
+            display: inline;
+            background-color: #4c4c4c;
+            color: white;
+            border: solid 2px black;
+            margin-left: 15px;
+            margin-top: 30px;
+            border-radius: 10px;
+          }
+          #box2{
+            width: 100%;
+            height: 500px;
+            background-color: #4c4c4c;
+          }
+          #BoxInBox{
+            width: 560px;
+            height: 420px;
+            margin: auto;
+            background-color: #4c4c4c;
+            position: relative;
+            top:10px;
+        }
+          #nowing{
+            background-color: darkgray;
+            margin-left: 45%;
+            margin-top: 3%;
+            position: relative;
+            display: inline-block;
+            border: 1px solid;
+
+          }
+          #firstline{
+            margin-top: 20px;
+            margin-left: 20px;
+            padding-top: 20px;
+            padding-left: 10px;
+            float: left;
+          }
+
+          #secondline{
+            margin-left: 20px;
+            margin-top: 30px;
+            padding-left: 10px;
+            float: left;
+          }
+
+          #box3{
+            width: 680px;
+            height: 230px;
+            background-color: black;
+          }
+
+        #rankingbox{
+          border: solid 1px;
+            width: 405px;
+            height: 208px;
+            padding: 10px;
+            background-color: white;
+            float: left;
+            border-right: solid 2px gray;
+        }
+
+        #preview{
+            border: solid 1px;
+            width: 249px;
+            height: 228px;
+            background-color: white;
+            float:left;
+            }
+
+
+      h2{
+        font-size: 20px;
+        display: inline;
+      }
+      #mag{
+        display:inline;
+        float: right;
+        border: solid 1px;
+      }
+
+      table{
+        color:white; font-size: 30px;
+        border:0; background-color:#4C4C4C;
+        align-items: center;
+      }
+
+      .rank{
+        width:30%;
+        height: 20%;
+        text-align: left;
+        float: left;
+      }
+
+      .title{
+        width:40%;
+        height: 20%;
+        text-align: left;
+        float: left;
+      }
+      .score{
+        width:30%;
+        height: 20%;
+        text-align: right;
+        float: left;
+      }
+      #logo{
+        top: 20px; left: 8px;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+<div id="wrap">
+      <header>
+        <a href="index.html"><img src="img/logo.png" id="logo"></a>
+        <a href="index.html"><div id="button1">영화홈</div></a>
+        <a href="submovie.html"><div id="button2">상영작</div></a>
+        <a href="subrank.html"><div id="button3" href="#">영화랭킹</div></a>
+      </header>
+    <contents>
+      <div id="box0">
+        <a href="login.html" id="login"> 로그인 </a>
+      </div>
+        <div id="box1"> <h1>현재 상영작</h1> </div>
+        <div id="box2">
+            <div id="BoxInBox">
+              <div id=firstline>
+                <img src="img/1.jpg" width="120" height="170">
+                <img src="img/2.jpg" width="120" height="170">
+                <img src="img/3.jpg" width="120" height="170">
+                <img src="img/4.jpg" width="120" height="170">
+              </div>
+              <div id=secondline>
+                <img src="img/5.jpg" width="120" height="170">
+                <img src="img/6.jpg" width="120" height="170">
+                <img src="img/7.jpg" width="120" height="170">
+                <a href="avengers.html"><img src="img/8.jpg" width="120" height="170"></a>
+              </div>
+            </div>
+            <div id="nowing"><a href="submovie.html">전체보기</a></div>
+          </div>
+
+        <div id="box3">
+          <div id="rankingbox">
+            <h2>영화 랭킹</h2><div id="mag"><a href="subrank.html">전체보기</a></div>
+            <hr size="3">
+            <div class="rank"> 순위 </div> <div class="title"> 영화명 </div> <div class="score"> 평점 </div>
+            <hr size="3">
+              <div class="rank"> 1위 </div> <div class="title"> 어밴져스: 인피니티 워 </div> <div class="score"> 9.76 </div> <p>
+              <div class="rank"> 2위 </div> <div class="title"> 챔피언 </div> <div class="score"> 9.42 </div> <p>
+              <div class="rank"> 3위 </div> <div class="title"> 레슬러 </div> <div class="score"> 8.59 </div>
+          </div>
+            <div id="preview">
+            <h2>예고편</h2>
+            <video src="video/marvel.mp4" autoplay loop controls="controls" width="250" height="200"></video>
+            </div>
+          </div>
+
+      </contents>
+      <footer>
+        <img src="img/blacklogo.png">
+        <ul>
+          <li><a href="TermsOfUse.html">이용약관</a></li>
+          <li>|</li>
+          <li>개인정보 처리방침</li>
+          <li>|</li>
+          <li>책임의 한계와 법적고지</li>
+        </ul>
+        본 콘텐츠의 저작권은 저작권자 또는 제공처에 있으며,
+        이를 무단으로 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.<br>
+        all right reserved
+      </footer>
+
+</div>
+  </body>
+</html>
