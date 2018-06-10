@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPEhtml>
 <html>
   <head>
     <meta charset="utf-8">
@@ -97,15 +97,15 @@
     <div id="wrap">
       <header>
         <a href="index.html"><img src="img/logo.png" id="logo"></a>
-        <a href="index.html"><div id="button1">영화홈</div></a>
-        <a href="submovie.html"><div id="button2" href="#">상영작</div></a>
-        <a href="subrank.html"><div id="button3" href="#">영화랭킹</div></a>
+        <a href="index.html" id="button1">영화홈</a>
+        <a href="submovie.html" id="button2">상영작</a>
+        <a href="subrank.html" id="button3">영화랭킹</a>
       </header>
       <contents>
         <div id="box0">
           <a href="login.html" id="login"> 로그인 </a>
         </div>
-        <div id="box1">
+        <div id="box1"><!-- 랭킹내용이 나오는 전체 박스입니다.  -->
           <h2><a href="subrank.html">랭킹</a></h2>
           <hr>
           <h3><a href="index.html">영화</a></h3>
@@ -114,6 +114,7 @@
           <hr>
           <div id="ranks"> 순위 </div> <div id="movies"> 영화명 </div> <div id="scores"> 평점 </div>
           <hr>
+          <!-- 박스 3개로 나눠서 순위와 영화명 평점을 표현했습니다. -->
             <div class="rank"> 1위 </div> <div class="moviename"> 어밴져스: 인피니티 워 </div> <div class="score"> 9.76 </div><p>
             <div class="rank"> 2위 </div> <div class="moviename"> 챔피언 </div> <div class="score"> 9.42 </div><p>
             <div class="rank"> 3위 </div> <div class="moviename"> 레슬러 </div> <div class="score"> 8.59 </div><p>
@@ -133,8 +134,9 @@
           <li>|</li>
           <li>책임의 한계와 법적고지</li>
         </ul>
-        본 콘텐츠의 저작권은 저작권자 또는 제공처에 있으며,
-        이를 무단으로 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.<br>
+
+        <span id="copyright"></span>본 콘텐츠의 저작권은 저작권자 또는 제공처에 있으며,
+        이를 무단으로 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.</span><br>
         all right reserved
       </footer>
     </div>

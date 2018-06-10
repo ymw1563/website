@@ -3,7 +3,7 @@
 <html>
 
 <head>
-<meta charset="utf-8"/>
+<meta charset="utf-8">
 
 <style>
 
@@ -85,21 +85,21 @@ a:visited {color: black; text-decoration: none;}
 
 <body>
 
-<header>
+<header> <!-- 로고 이미지, 로고 이미지에 index.html로 이동하는 링크를 설정함 -->
   <div id="logobox"><a href="index.html"><img src="img/logo.png" id="logo"></a></div>
 </header>
 
-<contents>
+<contents> <!-- div태그와 input태그를 사용하여 로그인 페이지를 나타냄 -->
   <div><input id="id" type="text" placeholder="아이디"> </input></div>
   <div><input id="password" type="password" placeholder="비밀번호"></div>
   <div id="loginBox"><input id="login" type="submit" value="로그인"></div>
-  <div id="signin"><a href="signin.html"><input id="signin" type="submit" value="회원가입"></a></div>
-  <div id="gobackBox"><a href="index.html"><input id="goback" type="button" value="홈으로"></a></div>
+  <div id="signin"><a href="signin.html"><input id="signin" type="submit" value="회원가입"></a></div> <!-- 회원가입 버튼에 signin.html로 이동할 수 있는 링크를 설정함 -->
+  <div id="gobackBox"><a href="#" onclick="closeWin(); return false;"><input id="goback" type="button" value="홈으로"></a></div> <!-- 홈으로 버튼에 index.html로 이동할 수 있는 링크를 설정함 -->
 </contents>
 
 <footer>
   <ul>
-    <li><a href="TermsOfUse.html">이용약관</a></li>
+    <li><a href="TermsOfUse.html">이용약관</a></li> <!-- 이용약관에 관한 내용을 TermsOfuse.html 페이지로 이동 -->
     <li>|</li>
     <li><a href="#">개인정보 처리방침</a></li>
     <li>|</li>
@@ -111,6 +111,12 @@ a:visited {color: black; text-decoration: none;}
   all right reserved<br>
   <img src="img/blacklogo.png">
 </footer>
+
+<script>
+    function closeWin(){
+      window.close();
+    }
+  </script>
 
 </body>
 

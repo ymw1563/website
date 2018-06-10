@@ -35,6 +35,7 @@ margin: 0 auto;
     font-weight: bold;
     font-size: 1.5em;
     color: white;
+    display: block;
   }
   #login{
     font-size: 14px;
