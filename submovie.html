@@ -77,7 +77,7 @@
           </header>
       <contents>
         <div id="box0">
-          <a href="login.html" id="login"> 로그인 </a>
+          <a a href="#" id="login"  onclick="openWin(); return false;">로그인 </a>
         </div>
 
         <div id="box1">
@@ -169,6 +169,11 @@
         이를 무단으로 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.<br>
         all right reserved
       </footer>
+<script language="javascript" type="text/javascript">
+  function openWin(){
+      window.open("login.html","", "width=800, height= 640, toolbar=no, menubar=no, resizable=yes" );
+  }
+</script>
     </div>
   </body>
 </html>
